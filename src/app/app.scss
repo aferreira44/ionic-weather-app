@@ -1,11 +1,30 @@
-.fixed-content {
+.home {
     background: color($colors, primary);
-}
-
-.scroll-content {
     color: color($colors, light);
 }
 
 .toolbar-title {
     text-align: center;
+}
+
+.temp {
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.location, .icon, .desc {
+    text-align: center
+}
+
+.icon img{
+    width: 75px;
+}
+
+.location {
+    font-size: 25px;
+}
+
+.desc {
+    font-size: 20px;
 }
